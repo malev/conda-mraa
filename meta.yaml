@@ -1,0 +1,19 @@
+package:
+  name: mraa
+  version: "0.9.3"
+
+source:
+  path: ../
+
+requirements:
+  build:
+    - cmake
+    - python
+    - swig
+  run:
+    - python
+
+about:
+  home: https://github.com/intel-iot-devkit/mraa
+  license: MIT License
+
